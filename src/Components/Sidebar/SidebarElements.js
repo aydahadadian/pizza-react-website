@@ -72,7 +72,7 @@ export const Cart = styled.ul`
 display:flex;
 flex-direction:column;
 padding:10px;
-height:70vh;
+height:65vh;
 overflow-y:auto ;
 `
 export const CartItem = styled.li`
@@ -117,6 +117,7 @@ export const InfoContainer = styled.div`
 h2{
   font-weight:300;
   font-size:1.5rem;
+  padding:10px;
 
 }
 
@@ -143,6 +144,8 @@ width:100%;
 background: #d7d7d759;
     color: #000;
     box-shadow: 2px 2px 7px -1px #464646;
-
+:hover{
+background:#d7d7d7c4 ;
+}
   
 `

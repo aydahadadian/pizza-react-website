@@ -11,7 +11,7 @@ const Navbar = ({setToggle,slideNum,setSlideNum}) => {
   return (
     <Container>
         <Logo>
-            Pizza
+            <b>P</b>izzaland
         </Logo>
         <MenuIcon onClick={menuAction}>
             <h4>Menu</h4>
