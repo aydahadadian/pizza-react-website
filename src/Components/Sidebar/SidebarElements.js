@@ -145,7 +145,7 @@ background: #d7d7d759;
     color: #000;
     box-shadow: 2px 2px 7px -1px #464646;
 :hover{
-background:#d7d7d7c4 ;
+background:#d7d7d7c4;
 }
   
 `

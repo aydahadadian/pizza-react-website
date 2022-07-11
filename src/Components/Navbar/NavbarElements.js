@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -12,8 +13,9 @@ font-weight:700;
 font-size:1.4rem;
 `;
 
-export const Logo = styled.div`
+export const Logo = styled(Link)`
 font-size: 1.4rem;
+text-decoration:none;
 b{
     color:#FFB423;
     font-size:1.7rem;
